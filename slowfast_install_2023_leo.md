@@ -1,9 +1,9 @@
 # Meta (Facebook AI) Slowfast 的环境构建总结
 - 之所以写这个readme，是因为我发现在构建Slowfast的时候需要好多更改的东西才能运行。[官方​安装指示](https://github.com/facebookresearch/SlowFast/blob/main/INSTALL.md)的readme都是2年前的了，所以希望这篇构建可以帮助到其他朋友。
 
-- 然后我也写了关于如何构建如何用Slowfast来训练自己的模型。[Slowfast的定制化​](https://jppanasonic.sharepoint.com/:p:/r/sites/TM-AM-HMI898-PJ-/Shared%20Documents/%E4%BA%BA%E9%96%93%E5%B7%A5%E5%AD%A6%E3%81%AE%E5%BF%9C%E7%94%A8%E6%B4%BB%E7%94%A8(%E4%BA%88%E6%B8%AC)PJ-%E3%83%81%E3%83%BC%E3%83%A0%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E3%81%BF%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%8F%AF/UbuntuPC%E8%A8%AD%E7%BD%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9.pptx?d=w1babc21e5bc146bc99cc39f81db66e3c&csf=1&web=1&e=N6XrAH).
+- 然后我也写了关于如何构建如何用Slowfast来训练自己的模型。[Slowfast的定制化​](xx).
 
-- 安装前请确保NVIDIA Driver, CUDA以及CUDNN得到了正确的安装。如果没有安装请参考这[Ubuntu的NVIDIA的安装​](https://jppanasonic.sharepoint.com/:p:/r/sites/TM-AM-HMI898-PJ-/Shared%20Documents/%E4%BA%BA%E9%96%93%E5%B7%A5%E5%AD%A6%E3%81%AE%E5%BF%9C%E7%94%A8%E6%B4%BB%E7%94%A8(%E4%BA%88%E6%B8%AC)PJ-%E3%83%81%E3%83%BC%E3%83%A0%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E3%81%BF%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%8F%AF/UbuntuPC%E8%A8%AD%E7%BD%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9.pptx?d=w1babc21e5bc146bc99cc39f81db66e3c&csf=1&web=1&e=N6XrAH).最后```python nvidia-smi```和```python nvcc -V```都有结果的话一般就ok。
+- 安装前请确保NVIDIA Driver, CUDA以及CUDNN得到了正确的安装。如果没有安装请参考这[Ubuntu的NVIDIA的安装​](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md).最后```python nvidia-smi```和```python nvcc -V```都有结果的话一般就ok。
 
 
 ### 1. 新建一个全新的Python环境
@@ -100,6 +100,8 @@ $ python setup.py build develop
 ```bash
 $ python tools/run_net.py --cfg configs/Kinetics/C2D_8x8_R50.yaml NUM_GPUS 1 TRAIN.BATCH_SIZE 8 SOLVER.BASE_LR 0.0125 DATA.PATH_TO_DATA_DIR path_to_your_data_folder
 ```
+![install_OK_picture](./picture/picture_for_install/install_OK_picture.png)
+
 
 ### Toubleshooting
 
@@ -119,7 +121,7 @@ _C.DATA.DECODING_BACKEND = "pyav"
 ### 如果你顺利，那就可以运行Slowfast啦~
 - 如果需要用Kinetics-400来测试模型的性能，请参考[这篇笔记​](https://github.com/facebookresearch/SlowFast/pull/541/files)。由于Kinetics-400已经有很多失效的code，导致很难下完完整的文件，然后不能顺利的用Kinetics-400的数据集进行训练测试。
 
-- 如果需要如何用Slowfast来训练自己的模型。[Slowfast的客制化​](..).
+- 如果需要如何用Slowfast来训练自己的模型。[Slowfast的Kinetics-400数据集训练调试成功​](..).
 
 ### References, 参考安装的URL​
 
