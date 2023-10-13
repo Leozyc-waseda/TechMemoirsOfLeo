@@ -8,3 +8,9 @@
 <br>
 
 <div>
+
+- [Ubuntu的NVIDIA的安装​](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md)
+- [Slowfast的环境安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/slowfast_install_2023_leo.md)
+- [Slowfast的Kinetics-400数据集训练调试成功](xx) ---> toDO
+- [Slowfast训练自己的数据集​](xx)                ---> toDO
+- [Ubuntu的常用工作软件](xxx)                  ---> toDO

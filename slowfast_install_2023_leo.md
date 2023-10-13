@@ -111,14 +111,16 @@ $ python tools/run_net.py --cfg configs/Kinetics/C2D_8x8_R50.yaml NUM_GPUS 1 TRA
 
 - ```probe_video_from_memory```或者```-Failed to decode by pyav with exception: unsupported operand type(s) for -: 'list' and 'int'```报错
 [参考​](https://github.com/facebookresearch/SlowFast/issues/181#issuecomment-1179203872). 把code改成这个 [Pull request​](https://github.com/facebookresearch/SlowFast/pull/541/files).
+![install_OK_picture](./picture/picture_for_install/probe_video_from_memory.png)
 
 - ```defaults.py```
 ```bash
 # torchvision 改成pyav
 _C.DATA.DECODING_BACKEND = "pyav"
 ```
+![pyav](./picture/picture_for_install/pyav.png)
 
-### 如果你顺利，那就可以运行Slowfast啦~
+### 如果你顺利，那就可以运行Slowfast啦~(参考4.)
 - 如果需要用Kinetics-400来测试模型的性能，请参考[这篇笔记​](https://github.com/facebookresearch/SlowFast/pull/541/files)。由于Kinetics-400已经有很多失效的code，导致很难下完完整的文件，然后不能顺利的用Kinetics-400的数据集进行训练测试。
 
 - 如果需要如何用Slowfast来训练自己的模型。[Slowfast的Kinetics-400数据集训练调试成功​](..).
