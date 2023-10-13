@@ -1,11 +1,12 @@
 # Meta (Facebook AI) Slowfast 的环境构建总结
+## 🚀 背景
 - 之所以写这个readme，是因为我发现在构建Slowfast的时候需要好多更改的东西才能运行。[官方​安装指示](https://github.com/facebookresearch/SlowFast/blob/main/INSTALL.md)的readme都是2年前的了，所以希望这篇构建可以帮助到其他朋友。
 
 - 然后我也写了关于如何构建如何用Slowfast来训练自己的模型。[Slowfast的定制化​](xx).
 
 - 安装前请确保NVIDIA Driver, CUDA以及CUDNN得到了正确的安装。如果没有安装请参考这[Ubuntu的NVIDIA的安装​](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md).最后```python nvidia-smi```和```python nvcc -V```都有结果的话一般就ok。
 
-
+## 🛠 安装步骤
 ### 1. 新建一个全新的Python环境
 ```bash
 # Anaconda的用户
@@ -103,7 +104,7 @@ $ python tools/run_net.py --cfg configs/Kinetics/C2D_8x8_R50.yaml NUM_GPUS 1 TRA
 ![install_OK_picture](./picture/picture_for_install/install_OK_picture.png)
 
 
-### Toubleshooting
+### 🚧 Toubleshooting
 
 - 由于很多原因，比如我们只有一个GPU，Facebook的人用了8个GPU，以及他们的OSS版本很老导致一些OSS已经不能用之类的原因，所以我们要进行troubleshooting。下面只是我的电脑的情况，其他人可以参考一下，具体以自己的电脑的错误为准去Debug。
 
@@ -125,7 +126,7 @@ _C.DATA.DECODING_BACKEND = "pyav"
 
 - 如果需要如何用Slowfast来训练自己的模型。[Slowfast的Kinetics-400数据集训练调试成功​](..).
 
-### References, 参考安装的URL​
+### 🔗 参考链接
 
 
 １．[阮喵喵的rmmv开发笔记​](https://www.ruan-cat.com/ruan-cat-own-notes/python/SlowFast/SlowFast.html).​
