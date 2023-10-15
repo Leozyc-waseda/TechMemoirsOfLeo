@@ -1,5 +1,5 @@
 <h1 align="center">TechMemoirsOfLeo</h1>
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FLeozyc-waseda%2FTechMemoirsOfLeo&label=VISITORS&countColor=%23263759)
+
 
 <p align="center">
     <strong>我的技术总结仓库 | 私の技術的なまとめのリポジトリ | My Technical Summary Repository</strong>
@@ -13,6 +13,8 @@
     <a href="README.ja.md">日本語</a>
 </p>
 
+---
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FLeozyc-waseda%2FTechMemoirsOfLeo&label=VISITORS&countColor=%23263759)
 ---
 
 ## 📝 目录 | Contents
