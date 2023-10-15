@@ -2,7 +2,7 @@
 ## 🚀 背景
 - 之所以写这个readme，是因为我发现在构建Slowfast的时候需要好多更改的东西才能运行。[官方​安装指示](https://github.com/facebookresearch/SlowFast/blob/main/INSTALL.md)的readme都是2年前的了，所以希望这篇构建可以帮助到其他朋友。
 
-- 然后我也写了关于如何构建如何用Slowfast来训练自己的模型。[Slowfast的定制化​](xx).
+- 然后我也写了关于如何构建如何用Slowfast来训练自己的模型。[Slowfast的定制化​](./Train_your_ownDataset_Slowfast.md).
 
 - 安装前请确保NVIDIA Driver, CUDA以及CUDNN得到了正确的安装。如果没有安装请参考这[Ubuntu的NVIDIA的安装​](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md).最后```python nvidia-smi```和```python nvcc -V```都有结果的话一般就ok。
 
