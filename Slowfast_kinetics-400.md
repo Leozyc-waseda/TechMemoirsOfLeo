@@ -56,3 +56,10 @@ $ bash ./k400_extractor.sh
 ```bash
 python tools/run_net.py --cfg ~/SlowFast/configs/Kinetics/SLOWFAST_8x8_R50.yaml --opts DATA.PATH_TO_DATA_DIR ~/kinetics-dataset/k400/test/ TEST.CHECKPOINT_FILE_PATH ~/PySlowFast_Model_Zoo/SLOWFAST_8x8_R50.pkl TRAIN.ENABLE False TEST.ENABLE True TEST.CHECKPOINT_TYPE caffe2  DATA_LOADER.NUM_WORKERS 2
 ```
+
+### 快速 Access
+- [🐧 Ubuntu 的 NVIDIA 安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md)
+- [🚀 Slowfast 的环境安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/slowfast_install_2023_leo.md)
+- [🎥 Slowfast 的 Kinetics-400 数据集训练调试成功](./Slowfast_kinetics-400.md)
+- [📊 Slowfast 训练自己的数据集](./Train_your_ownDataset_Slowfast.md) 
+- [💼 Ubuntu 的常用工作软件](./Ubuntu_Remote_Software.md) 

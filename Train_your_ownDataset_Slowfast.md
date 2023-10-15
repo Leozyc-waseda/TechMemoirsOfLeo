@@ -11,7 +11,7 @@
 - github上有大佬已经写出了如何训练自己的数据集的具体流程，[Github的回答](https://github.com/facebookresearch/SlowFast/issues/149#issuecomment-7232654619)
 
 - 整体的流程入下图所示。主要需要改的部分就是下面的5个红色的圈圈。
-[custom_total](./picture/custom_dataset_slowfast/custom_total.png)
+![custom_total](./picture/custom_dataset_slowfast/custom_total.png)
 
 ## 1️⃣ data1 and data2的部分
 - 首先，你需要创建一个配置文件（```.yaml```），三个用于数据集拆分的文件（```.csv```），一个用于引用类的文件（```.json```），以及一个用于解析数据集的文件（```mydata.py```）。
@@ -43,3 +43,10 @@
 - 使用新配置运行以下命令：
 ```python /SlowFast/tools/run_net.py --cfg /SlowFast/configs/MyData/I3D_8x8_R50.yaml```
 注意，可能需要根据你的实际工作目录调整路径。
+
+### 快速 Access
+- [🐧 Ubuntu 的 NVIDIA 安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md)
+- [🚀 Slowfast 的环境安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/slowfast_install_2023_leo.md)
+- [🎥 Slowfast 的 Kinetics-400 数据集训练调试成功](./Slowfast_kinetics-400.md)
+- [📊 Slowfast 训练自己的数据集](./Train_your_ownDataset_Slowfast.md) 
+- [💼 Ubuntu 的常用工作软件](./Ubuntu_Remote_Software.md) 

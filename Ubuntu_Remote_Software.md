@@ -146,7 +146,7 @@ $ sudo apt-get install -y xorgxrdp
 ![xrdp.png](./picture/ubuntu_remote_software/xrdp.png)
 
 
-### 快速 Accesss
+### 快速 Access
 - [🐧 Ubuntu 的 NVIDIA 安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md)
 - [🚀 Slowfast 的环境安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/slowfast_install_2023_leo.md)
 - [🎥 Slowfast 的 Kinetics-400 数据集训练调试成功](./Slowfast_kinetics-400.md)
