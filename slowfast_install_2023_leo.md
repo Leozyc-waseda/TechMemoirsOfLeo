@@ -133,3 +133,10 @@ _C.DATA.DECODING_BACKEND = "pyav"
 
 ２．[官方​安装指示](https://github.com/facebookresearch/SlowFast/blob/main/INSTALL.md).​
 
+### 快速 Accesss
+- [🐧 Ubuntu 的 NVIDIA 安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/Ubuntu_NVIDIA_CUDA_INSTALL.md)
+- [🚀 Slowfast 的环境安装](https://github.com/Leozyc-waseda/TechMemoirsOfLeo/blob/main/slowfast_install_2023_leo.md)
+- [🎥 Slowfast 的 Kinetics-400 数据集训练调试成功](./Slowfast_kinetics-400.md)
+- [📊 Slowfast 训练自己的数据集](./Train_your_ownDataset_Slowfast.md) 
+- [💼 Ubuntu 的常用工作软件](./Ubuntu_Remote_Software.md) 
+
