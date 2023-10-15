@@ -24,7 +24,7 @@ $ sudo ufw status​
 $ sudo /etc/init.d/ssh restart
 ```
 - 最后在```teriminal```中输入```$ sudo systemctl status ssh​```显示下面的图片就是成功了。
-[ssh_ok_status](./picture/ubuntu_remote_software/ssh_ok_status.png)
+![ssh_ok_status](./picture/ubuntu_remote_software/ssh_ok_status.png)
 
 
 ## 2️⃣ Vscode 远程控制
@@ -143,4 +143,4 @@ $ sudo apt-get install -y xorgxrdp
 ```
 
 最后打开windows上这个remote软件，输入id address，就可以看到下面的界面啦。
-[xrdp.png](./picture/ubuntu_remote_software/xrdp.png)
+![xrdp.png](./picture/ubuntu_remote_software/xrdp.png)
