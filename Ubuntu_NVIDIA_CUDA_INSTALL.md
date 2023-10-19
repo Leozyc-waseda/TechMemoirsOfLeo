@@ -9,7 +9,7 @@
 ![illvmpipe_card.jpg](./picture/picture_Ubuntu_Env/illvmpipe_card.jpg)
 
 
-- 你要做的事是```F2```或者```Delete```或者```F12```进入到```BIOS```，将```Boot OS Type```改成：```Other OS---> standard```或者```secure boot control ```设置为```disabled```。如图所示。
+- 你要做的事是```F2```或者```Delete```或者```F12```进入到```BIOS```，将```Boot OS Type```改成：```Other OS```或者```secure boot control ```设置为```disabled```。如图所示。
 ![borad_change.png](./picture/picture_Ubuntu_Env/borad_change.png)
 
 
