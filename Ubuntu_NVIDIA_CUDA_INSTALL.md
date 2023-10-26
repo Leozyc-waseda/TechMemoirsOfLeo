@@ -86,7 +86,6 @@ $ source ~/.bashrc
 $ cd /usr/local/cuda-12.0 
 $ sudo chmod 666 include
 $ tar -xvf cudnn-linux-x86_64-8.9.0.131_cuda12-archive.tar.xz 
-$ tar -xvf cudnn-linux-x86_64-8.9.0.131_cuda12-archive.tar.xz 
 $ sudo cp cudnn-*-archive/include/cudnn*.h /usr/local/cuda-12.0/include 
 $ sudo cp cudnn-*-archive/lib/libcudnn* /usr/local/cuda-12.0/lib64 
 $ sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda-12.0/lib64/libcudnn*
