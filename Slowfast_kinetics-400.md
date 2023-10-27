@@ -39,7 +39,6 @@ $ bash ./k400_extractor.sh
 - 代码在这 [csv_transfer.py](./source_code/Slowfast_kinetics-400/csv_transfer.py)用这个代码去转换csv文件。
 
 - 记得改路径，然后得到如下图after的文件格式，这个是slowfast官方要求的。
-![before_after](./picture/Slowfast_kinetics-400/before_after.png)
 
 
 ### 2.2 用classids.json改变class id
