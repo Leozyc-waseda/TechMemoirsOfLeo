@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-    <a href="README.md">English</a> |
-    <a href="README.zh-CN.md">简体中文</a> |
-    <a href="README.ja.md">日本語</a>
+    <a href="/English/README.en.md">English</a> |
+    <a href="README.md">简体中文</a> |
+    <a href="/Japanese/README.ja.md">日本語</a>
 </p>
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FLeozyc-waseda%2FTechMemoirsOfLeo&label=VISITORS&countColor=%23263759)
