@@ -38,6 +38,26 @@ ERROR: Installation has failed.  Please see the file '/var/log/nvidia-installer.
 - 你需要做的事情如下！请一定要做，因为如果不提前关闭电脑的图形程序，就会导致安装失败。我想大多数的不能安装都是出现在这一步骤。
 
 - 请按下面的顺序执行
+- disable Nouveau kernel driver
+```bash
+118
+
+According to the NVIDIA developer zone: Create a file:
+
+sudo nano /etc/modprobe.d/blacklist-nouveau.conf
+With the following contents:
+
+blacklist nouveau
+options nouveau modeset=0
+Regenerate the kernel initramfs:
+
+sudo update-initramfs -u
+Finally, reboot:
+
+sudo reboot
+
+```
+- 
 ```bash
 1.按Ctrl+Alt+F1并使用你的账号登录。
 2.通过输入 sudo service lightdm stop 或 sudo lightdm stop 来结束你当前的X server会话。
